@@ -1,0 +1,10 @@
+1:
+  name: 史莱姆
+  gender: unknown
+  skill: []
+  max_health: 10
+  atk: 5
+  def: 1
+  growth: [10,1,1]
+  description: "常见的怪物"
+

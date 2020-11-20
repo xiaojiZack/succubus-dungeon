@@ -1,0 +1,21 @@
+0:
+  name: "error"
+  type: "error"
+  cool_down: 0
+  grade: D
+  priority: 0
+  description: "error"
+1:
+  name: "再生"
+  type: "passive"
+  cool_down: 0
+  grade: D
+  priority: 0
+  description: "当遭受攻击时，对自身赋予3（+0.5攻击力）的{再生}"
+2:
+  name: "农民"
+  type: "passive"
+  cool_down: 0
+  grade: D
+  priority: 0
+  description: "无效果，只能说明这是个普通农民"

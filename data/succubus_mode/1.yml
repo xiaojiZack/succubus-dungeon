@@ -1,0 +1,9 @@
+name: "the famous unknown"
+gender: femal
+skill: []
+superpower: []
+max_health: 100
+atk: 10
+def: 6
+growth: [20, 5, 3]
+description: "无人知晓的伟大存在"

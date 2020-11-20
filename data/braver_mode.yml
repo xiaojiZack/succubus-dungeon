@@ -1,0 +1,9 @@
+1:
+  name: 农民
+  gender: unknown
+  skill: []
+  max_health: 10
+  atk: 5
+  def: 1
+  growth: [10,1,1]
+  description: "朴实的农民，构成了这片大地上最基本的意志"
