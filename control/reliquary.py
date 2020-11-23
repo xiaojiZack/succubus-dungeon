@@ -1,14 +1,14 @@
 import erajs.api as a 
 #此页面用于设定facility基本模板
 
-class facility:
+class reliquary:
     ID = 0
     
     def __init__(self, template="1"):
-        path = 'facility'
-        facility.ID = facility.ID + 1
-        self.ID = facility.ID
-        self.Type = "facility"
+        path = 'reliquary'
+        reliquary.ID = reliquary.ID + 1
+        self.ID = reliquary.ID
+        self.Type = "reliquary"
         self.template = template
         self.level = 1
         self.name = a.dat()[path][template]['name']
@@ -16,6 +16,7 @@ class facility:
         self.value = a.dat()[path][template]['value']
         self.growth = a.dat()[path][template]['growth']
         self.description = a.dat()[path][template]['description']
+        self.enable = True
 
     def change(self, key, value):
         eval("self.{} = value".format(key))

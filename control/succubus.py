@@ -24,9 +24,9 @@ class succubus:
 
     def normal_upgrade(self, up_level):
         self.level = self.level + up_level
-        self.max_health = self.max_health + self.growth[0]
-        self.atk = self.atk + self.growth[1]
-        self.dEf = self.dEf + self.growth[2]
+        self.max_health = self.max_health + self.growth[0]*up_level
+        self.atk = self.atk + self.growth[1]*up_level
+        self.dEf = self.dEf + self.growth[2]*up_level
 
     def save(self):
         a.sav()['succubus'] = [self.template, self.name, self.level, self.gender, self.skill, 
