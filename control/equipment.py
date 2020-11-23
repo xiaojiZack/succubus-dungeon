@@ -1,20 +1,22 @@
 import erajs.api as a 
-#此页面用于设定reliquary基本模板
+#此页面用于设定equipment基本模板
 
-class reliquary:
+class equipment:
     ID = 0
     
     def __init__(self, template="1"):
-        path = 'reliquary_mode'
-        reliquary.ID = reliquary.ID + 1
-        self.ID = reliquary.ID
-        self.Type = "reliquary"
+        path = 'equipment_mode'
+        equipment.ID = equipment.ID + 1
+        self.ID = equipment.ID
+        self.Type = "equipment"
         self.template = template
         self.level = 1
         self.name = a.dat()[path][template]['name']
-        self.skill = a.dat()[path][template]['skill']
+        self.owner = None                               #此处考虑填写拥有者ID？
+        self.skill = a.dat()[path][template]['skill']   #考虑从已有技能中选取
         self.value = a.dat()[path][template]['value']
         self.growth = a.dat()[path][template]['growth']
+        self.grade = a.dat()[path][template]['grade']
         self.description = a.dat()[path][template]['description']
         self.enable = True
 

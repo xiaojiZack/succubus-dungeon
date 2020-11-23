@@ -1,7 +1,7 @@
 1:
   name: 史莱姆
   gender: unknown
-  skill: []
+  skill: ["MS1"]
   max_health: 10
   atk: 5
   def: 1

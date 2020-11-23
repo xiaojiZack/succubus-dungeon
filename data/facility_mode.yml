@@ -1,0 +1,14 @@
+0:
+  name: "魔王房间"
+  skill: "FA0"
+  capacity: [3, 1000]
+  value: []
+  growth: []
+  description: "地宫的心脏，最好不要让勇士进到这里。"
+1: 
+  name: "战斗"
+  skill: "FA1"
+  capacity: [3, 3]
+  value: [10]
+  growth: [10]
+  description: "给布置其中的怪物临时额外提供{}生命值"

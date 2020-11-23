@@ -1,7 +1,7 @@
 1:
   name: 农民
   gender: unknown
-  skill: []
+  skill: ["BS1"]
   max_health: 10
   atk: 5
   def: 1

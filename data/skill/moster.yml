@@ -1,0 +1,14 @@
+0:
+  name: "error"
+  type: "error"
+  cool_down: 0
+  grade: D
+  priority: 0
+  description: "error"
+1:
+  name: "再生"
+  type: "passive"
+  cool_down: 0
+  grade: D
+  priority: 0
+  description: "当遭受攻击时，对自身赋予3（+0.5攻击力）的{再生}"

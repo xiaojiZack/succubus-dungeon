@@ -1,0 +1,14 @@
+0:
+  name: "普通魔王房间"
+  type: "fight"
+  cool_down: 0
+  grade: S
+  priority: 0
+  description: "魔王居住的房间。"
+1:
+  name: "战斗"
+  type: "fight"
+  cool_down: 0
+  grade: D
+  priority: 0
+  description: "给布置其中的怪物额外提供生命值"

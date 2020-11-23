@@ -3,8 +3,8 @@ import erajs.api as a
 
 class skill:
 
-    def __init__(self, id):
-        path = "skill.1"
+    def __init__(self, kind, id):
+        path = "skill.{}".format(kind)
         self.id = id
         self.name = a.dat()[path][id]["name"]
         self.type = a.dat()[path][id]["type"]

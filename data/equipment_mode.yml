@@ -1,0 +1,7 @@
+1: 
+  name: "短剑"
+  skill: ["ES1"]
+  value: [10]
+  growth: []
+  grade: "D"
+  description: "普通的短剑"

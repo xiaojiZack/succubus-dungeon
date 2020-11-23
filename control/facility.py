@@ -5,7 +5,7 @@ class facility:
     ID = 0
     
     def __init__(self, template="1"):
-        path = 'facility'
+        path = 'facility_mode'
         facility.ID = facility.ID + 1
         self.ID = facility.ID
         self.Type = "facility"
@@ -13,6 +13,7 @@ class facility:
         self.level = 1
         self.name = a.dat()[path][template]['name']
         self.skill = a.dat()[path][template]['skill']
+        self.capacity = a.dat()[path][template]['capacity']
         self.value = a.dat()[path][template]['value']
         self.growth = a.dat()[path][template]['growth']
         self.description = a.dat()[path][template]['description']
