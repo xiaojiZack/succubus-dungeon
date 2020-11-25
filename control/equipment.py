@@ -13,8 +13,8 @@ class equipment:
         self.level = 1
         self.name = a.dat()[path][template]['name']
         self.owner = None                               #此处考虑填写拥有者ID？
-        self.skill = a.dat()[path][template]['skill']   #考虑从已有技能中选取
-        self.value = a.dat()[path][template]['value']
+        self.skill = a.dat()[path][template]['skill']   #考虑从已有技能中选取，此处为可携带技能词条数
+        self.value = a.dat()[path][template]['value']   #['攻百分比','防百分比','血百分比','速百分比','次']
         self.growth = a.dat()[path][template]['growth']
         self.grade = a.dat()[path][template]['grade']
         self.description = a.dat()[path][template]['description']

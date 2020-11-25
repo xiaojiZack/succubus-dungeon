@@ -1,7 +1,14 @@
+0: 
+  name: ""
+  skill: ["从已有技能中随机，此处显示可随机的词条数"]
+  value: ['攻百分比','防百分比','血百分比','速百分比','次']
+  growth: []
+  grade: "D"
+  description: "简短描述"
 1: 
   name: "短剑"
-  skill: ["ES1"]
-  value: [10]
+  skill: [0]
+  value: [5, 0, 0, 0, 0]
   growth: []
   grade: "D"
   description: "普通的短剑"
