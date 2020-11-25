@@ -3,7 +3,7 @@ import erajs.api as a
 
 class succubus:
     
-    def __init__(self, template=1):
+    def __init__(self, template=0):
         path = 'succubus_mode.{}'.format(template)
         self.Type = "succubus"
         self.template = template
