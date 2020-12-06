@@ -19,6 +19,21 @@ def test(number=1):
     a.mode()
     x= succubus()
     a.t(x.name)
+    a.t()
+    a.mode('grid', 1)
+    for i in range(0,10):
+        a.t('┏')
+        for j in range(0, len('┃ ☢ ┃')):
+            a.t('━')
+        a.t('┓')
+        a.t()
+        a.t('┃[☢]┃')
+        a.t()
+        a.t('┗')
+        for j in range(0, len('┃ ☢ ┃')):
+            a.t('━')
+        a.t('┛')
+        a.t()
 
 def main():
     time.sleep(1)
