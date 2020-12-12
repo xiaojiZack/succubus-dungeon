@@ -17,7 +17,7 @@ def select_difficulty():
         a.tmp()['money'] = 0
         a.tmp()['semen'] = 0
         a.tmp()['day_time'] = '日间'
-        a.tmp()['capture_list'] = []
+        a.tmp()['prisoner_list'] = []
         a.tmp()['family_list'] = []
         a.tmp()['difficulty'] = difficulty
         show_main()

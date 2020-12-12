@@ -1,0 +1,45 @@
+#1战斗2精英战斗3活动4怪物商人5设施商人6黑商7休息8决战
+1:
+  name: '战斗'
+  picture: '【 ⚒ 】'
+  style: {'color': '#000000'}
+
+2:
+  name: '精英战斗'
+  picture: '【 ⚔ 】'
+  style: {'color': '#0000FF'}
+
+3: 
+  name: '活动'
+  picture: '【 ⚠ 】'
+  style: {'color': '#FFC0CB'}
+
+4: 
+  name: '怪物商人'
+  picture: '【 ⊗ 】'
+  style: {'color': '#32CD32'}
+
+5:
+  name: '设施商人'
+  picture: '【 ❖ 】'
+  style: {'color': '#B5B5B5'}
+
+6:
+  name: '装备商人'
+  picture: '【 ⧉ 】'
+  style: {'color': '#CD6600'}
+
+7:
+  name: '黑商'
+  picture: '【 ⌘ 】'
+  style: {'color': '#8B008B'}
+
+8:
+  name: '休息'
+  picture: '【 Zz 】'
+  style: {'color': '#FFD700'}
+
+9: 
+  name: '决战'
+  picture: '【 ♰♰ 】'
+  style: {'color': '#FF0000'}
